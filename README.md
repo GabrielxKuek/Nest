@@ -36,7 +36,7 @@ Brief Overview:
 - Xcode 14 (Swift 5.7)
 - iOS 14
 
-<h4>Deployment</h4>
+<h4>Deployment:</h4>
 - To access the source code, [fork](https://github.com/GabrielxKuek/Nest/Nest.xcodeproj/fork) or clone this repository to access the source code.
 - To run the app, open **Nest/Nest.xcodeproj**
 
