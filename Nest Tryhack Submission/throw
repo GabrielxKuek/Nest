@@ -1,0 +1,23 @@
+<li class="nav-item">
+                            <div class="d-flex coin_container">
+                                <img class="coin" src="ImagesFolder/coin.png" alt="coin">
+                                <p class="total_coin">: 100</p>
+                            </div>
+                        </li>
+
+
+
+
+                        <a class="navbar-brand" href="index.html">
+                            <img class="logo px-2" src="ImagesFolder/logo.jpg">
+                        </a>
+
+                        <title>Nest Home</title>
+                        <link rel="icon" href="ImagesFolder/logo.jpg">
+
+                        <a href="shop.html"><img class="coin" src="ImagesFolder/coin.png" alt="coin"></a>
+                                <p class="total_coin">: 100</p>
+
+                                <footer class="bg-dark text-white text-center py-2">
+                                    Copyright @2023 Nest 
+                                </footer>

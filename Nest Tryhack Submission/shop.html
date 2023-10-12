@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nest shop</title>
+    <link rel="icon" href="ImagesFolder/logo.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="CSS Folder/styles.css" rel="stylesheet" />
+    <link href="CSS Folder/shop.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="sticky-top">
+        <!-- nav bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid px-3"><a class="navbar-brand" href="index.html">
+                    <img class="logo px-2" src="ImagesFolder/logo.jpg">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <form class="d-flex me-auto search_bar_form">
+                        <input class="form-control search_bar" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn search_bar_icon" type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"></li>
+                        <a href="shop.html"><img class="coin" src="ImagesFolder/coin.png" alt="coin"></a>
+                        <p class="total_coin">: 100</p>
+
+                        <li class="nav-item mx-2">
+                            <a class="nav-link nav_list active" aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link nav_list" href="discover.html">DISCOVER</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link nav_list" href="shop.html">SHOP</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link nav_list" href="account.html"><i class="bi bi-person-circle"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container-fluid main-content">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-title">Subscriptions</h2>
+                <div class="subscription-options">
+                    <a href="payment.html" class="subscription-option btn btn-primary btn-lg">Monthly
+                        <p> $6.98 / month</p>
+                    </a>
+                    <a href="payment.html" class="subscription-option btn btn-primary btn-lg">Yearly
+                        <p> $68.98 / year</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-title">Coin Surcharge</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="coin-surcharges">
+                    <!-- First four options with links -->
+                    <a href="payment.html" class="coin-surcharge-option btn btn-secondary">103 Coins = $1.03</a>
+                    <a href="payment.html" class="coin-surcharge-option btn btn-secondary">310 Coins = $2.98</a>
+                    <a href="payment.html" class="coin-surcharge-option btn btn-secondary">680 Coins = $5.98</a>
+                    <a href="payment.html" class="coin-surcharge-option btn btn-secondary">880 Coins = $7.98</a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="coin-surcharges">
+                    <!-- Last four options with links -->
+                    <a href="payment.html" class="coin-surcharge-option btn btn-secondary">1800 Coins = $15.98</a>
+                    <a href="payment.html" class="coin-surcharge-option btn btn-secondary">3800 Coins = $29.98</a>
+                    <a href="payment.html" class="coin-surcharge-option btn btn-secondary">8900 Coins = $79.98</a>
+                    <a href="payment.html" class="coin-surcharge-option btn btn-secondary">17600 Coins = $148.98</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="bg-dark text-white text-center py-2">
+        Copyright @2023 Nest
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

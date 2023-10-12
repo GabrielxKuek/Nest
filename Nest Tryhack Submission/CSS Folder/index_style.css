@@ -1,0 +1,62 @@
+@charset "utf-8";
+body {
+    background-color: rgb(17, 24, 39);
+    color: #d1d5db;
+}
+
+article a {
+    color: rgb(209, 213, 219);
+    text-decoration: none;
+}
+article a:hover {
+    color: #6a7078;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+/* icon styles */
+.saved {
+    color: yellow;
+}
+
+.CW_description .saved, .CW_description .bi-arrow-up, .CW_description .bi-arrow-down {
+    font-size: 30px;
+}
+
+/* Continue Watching? */
+.CW_title {
+    border-bottom: solid 2px black;
+    min-width: 100%;
+    background-color: rgb(55, 65, 81);
+    padding: 0 8px;
+    border-radius: 7px 7px 0 0;
+}
+
+.CW_container {
+    border: solid 2px black;
+    border-radius: 10px;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.CW_body {
+    background-color: rgb(39, 69, 118);
+    border-radius: 0 0 10px 10px;
+}
+
+/* favourite videos */
+.saved_videos_container {
+    border: solid 2px black;
+    background-color: rgb(55, 65, 81);
+    min-height: 250px;
+    border-radius: 10px;
+    overflow-x: auto;
+    /* max-width: 1000px;
+    white-space: nowarp; */
+}
+
+.video_container {
+    background-color: white;
+    width: 300px;
+    height: 200px;
+}

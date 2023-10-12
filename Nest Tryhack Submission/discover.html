@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nest Discovery</title>
+    <link rel="icon" href="ImagesFolder/logo.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="CSS Folder/styles.css" rel="stylesheet" />
+    <link href="CSS Folder/discover.css" rel="stylesheet" />
+    <!-- <script src="../JS/transparent_nav.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <header class="sticky-top">
+        <!-- nav bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light transparent_navbar">
+            <div class="container-fluid px-3">
+                <a class="navbar-brand" href="index.html">
+                    <img class="logo px-2" src="ImagesFolder/logo.jpg">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <form class="d-flex me-auto search_bar_form">
+                        <input class="form-control search_bar" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn search_bar_icon" type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <div class="d-flex coin_container">
+                                <a href="shop.html"><img class="coin" src="ImagesFolder/coin.png" alt="coin"></a>
+                                <p class="total_coin">: 100</p>
+                            </div>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link nav_list" aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link nav_list active" href="discover.html">DISCOVER</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link nav_list" href="shop.html">SHOP</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link nav_list" href="account.html"><i class="bi bi-person-circle"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <article class="trending_container container-fluid">
+
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+                <div class="first_carousel carousel-item active " data-bs-interval="150000">
+
+                    <div class="d-flex justify-content-center align-items-center h-100">
+                        <div class="container-fluid p-5">
+                            <div class="row align-items-center">
+                                <div class="col-6 col_1">
+                                    <p>
+                                    <h3>
+                                        Let's learn how to use the leftover cardboard boxes to make
+                                        sometihng interesting and fun to use !!
+                                    </h3>
+                                    </p>
+                                    <button class="play_btn"><i class="bi bi-play-fill"></i> Play</button>
+                                    <button class="seemore_btn">See more <i class="bi bi-three-dots"></i></button>
+                                    <i class="bi bi-star trending_star ps-3"></i>
+                                </div>
+
+                                <div class="col-6 col_2 text-end">
+                                    <span class="thumb_count"><b>1.5k</b></span>
+                                    <i class="bi bi-hand-thumbs-up trending_thumb"></i>
+                                    <i class="bi bi-hand-thumbs-down trending_thumb"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="second_carousel carousel-item" data-bs-interval="15000">
+
+                    <div class="d-flex justify-content-center align-items-center h-100">
+                        <div class="container-fluid p-5">
+                            <div class="row align-items-center">
+                                <div class="col-6 col_1">
+                                    <p>
+                                    <h3>
+                                        Let's learn how to use the leftover cardboard boxes to make
+                                        Even the tiniest waste still can bring fourth giant ideas.
+                                        This video will show you some tips and trucks you can use to make
+                                        something super fun with little materials
+                                    </h3>
+                                    </p>
+                                    <button class="play_btn"><i class="bi bi-play-fill"></i> Play</button>
+                                    <button class="seemore_btn">See more <i class="bi bi-three-dots"></i></button>
+                                    <i class="bi bi-star trending_star ps-3"></i>
+                                </div>
+
+                                <div class="col-6 col_2 text-end">
+                                    <span class="thumb_count"><b>1.5k</b></span>
+                                    <i class="bi bi-hand-thumbs-up trending_thumb"></i>
+                                    <i class="bi bi-hand-thumbs-down trending_thumb"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="third_carousel carousel-item" data-bs-interval="15000">
+
+                    <div class="d-flex justify-content-center align-items-center h-100">
+                        <divclass="container-fluid p-5">
+                            <div class="row align-items-center">
+                                <div class="col-6 col_1">
+                                    <p>
+                                    <h3>
+                                        Want to live your fantasy as a warrior ? This easy
+                                        tutorial will guide you step by step how to make your
+                                        very own weapon that's easy to handle and safe to use
+                                        for everybody!
+                                    </h3>
+                                    </p>
+                                    <button class="play_btn"><i class="bi bi-play-fill"></i> Play</button>
+                                    <button class="seemore_btn">See more <i class="bi bi-three-dots"></i></button>
+                                    <i class="bi bi-star trending_star ps-3"></i>
+                                </div>
+
+                                <div class="col-6 col_2 text-end">
+                                    <span class="thumb_count"><b>1.5k</b></span>
+                                    <i class="bi bi-hand-thumbs-up trending_thumb"></i>
+                                    <i class="bi bi-hand-thumbs-down trending_thumb"></i>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+    </article>
+
+    <aside class="container-fluid p-3">
+        <section>
+            <h2><b>What's New?</b></h2>
+        </section>
+
+        <section>
+            <div class="container-fluid">
+                <div class="row my-4">
+                    <div class="col-4">
+
+                        <div class="card mx-4">
+                            <div class="image-container">
+                                <a href="https://youtube.com"><img src="ImagesFolder/more1.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="bi bi-person-circle"></i> 10 Beautiful Doormat
+                                        Making |
+                                        Old Clothes Reuse | Handmade</h5>
+                                    <div class="d-flex">
+                                        <a href="#" class="btn readmore_btn">Read More &gt;&gt;</a>
+                                        <i class="bi bi-star-fill new_selected_star ps-2"></i>
+                                        <div class="d-flex rating_container">
+                                            <p class="pe-2">123</p>
+                                            <i class="bi bi-hand-thumbs-up"></i>
+                                            <i class="bi bi-hand-thumbs-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-4">
+
+                        <div class="card mx-4">
+                            <div class="image-container">
+                                <a href="https://youtube.com"><img src="ImagesFolder/more2.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="bi bi-person-circle"></i> 10 Beautiful Doormat
+                                        Making |
+                                        Old Clothes Reuse | Handmade</h5>
+                                    <div class="d-flex">
+                                        <a href="#" class="btn readmore_btn">Read More &gt;&gt;</a>
+                                        <i class="bi bi-star new_star ps-2"></i>
+                                        <div class="d-flex rating_container">
+                                            <p class="pe-2">123</p>
+                                            <i class="bi bi-hand-thumbs-up"></i>
+                                            <i class="bi bi-hand-thumbs-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+
+                        <div class="card mx-4">
+                            <div class="image-container">
+                                <a href="https://youtube.com"><img src="ImagesFolder/more3.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="bi bi-person-circle"></i> 10 Beautiful Doormat
+                                        Making |
+                                        Old Clothes Reuse | Handmade</h5>
+                                    <div class="d-flex">
+                                        <a href="#" class="btn readmore_btn">Read More &gt;&gt;</a>
+                                        <i class="bi bi-star new_star ps-2"></i>
+                                        <div class="d-flex rating_container">
+                                            <p class="pe-2">123</p>
+                                            <i class="bi bi-hand-thumbs-up"></i>
+                                            <i class="bi bi-hand-thumbs-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row my-4">
+                    <div class="col-4">
+
+                        <div class="card mx-4">
+                            <div class="image-container">
+                                <a href="https://youtube.com"><img src="ImagesFolder/more4.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="bi bi-person-circle"></i> 10 Beautiful Doormat
+                                        Making |
+                                        Old Clothes Reuse | Handmade</h5>
+                                    <div class="d-flex">
+                                        <a href="#" class="btn readmore_btn">Read More &gt;&gt;</a>
+                                        <i class="bi bi-star new_star ps-2"></i>
+                                        <div class="d-flex rating_container">
+                                            <p class="pe-2">123</p>
+                                            <i class="bi bi-hand-thumbs-up"></i>
+                                            <i class="bi bi-hand-thumbs-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+
+                        <div class="card mx-4">
+                            <div class="image-container">
+                                <a href="https://youtube.com"><img src="ImagesFolder/more5.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="bi bi-person-circle"></i> 10 Beautiful Doormat
+                                        Making |
+                                        Old Clothes Reuse | Handmade</h5>
+                                    <div class="d-flex">
+                                        <a href="#" class="btn readmore_btn">Read More &gt;&gt;</a>
+                                        <i class="bi bi-star new_star ps-2"></i>
+                                        <div class="d-flex rating_container">
+                                            <p class="pe-2">123</p>
+                                            <i class="bi bi-hand-thumbs-up"></i>
+                                            <i class="bi bi-hand-thumbs-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+
+                        <div class="card mx-4">
+                            <div class="image-container">
+                                <a href="https://youtube.com"><img src="ImagesFolder/more6.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="bi bi-person-circle"></i> 10 Beautiful Doormat
+                                        Making |
+                                        Old Clothes Reuse | Handmade</h5>
+                                    <div class="d-flex">
+                                        <a href="#" class="btn readmore_btn">Read More &gt;&gt;</a>
+                                        <i class="bi bi-star new_star ps-2"></i>
+                                        <div class="d-flex rating_container">
+                                            <p class="pe-2">123</p>
+                                            <i class="bi bi-hand-thumbs-up"></i>
+                                            <i class="bi bi-hand-thumbs-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row my-4">
+                    <div class="col-4">
+
+                        <div class="card mx-4">
+                            <div class="image-container">
+                                <a href="https://youtube.com"><img src="ImagesFolder/more7.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="bi bi-person-circle"></i> 10 Beautiful Doormat
+                                        Making |
+                                        Old Clothes Reuse | Handmade</h5>
+                                    <div class="d-flex">
+                                        <a href="#" class="btn readmore_btn">Read More &gt;&gt;</a>
+                                        <i class="bi bi-star new_star ps-2"></i>
+                                        <div class="d-flex rating_container">
+                                            <p class="pe-2">123</p>
+                                            <i class="bi bi-hand-thumbs-up"></i>
+                                            <i class="bi bi-hand-thumbs-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-4">
+
+                        <div class="card mx-4">
+                            <div class="image-container">
+                                <a href="https://youtube.com"><img src="ImagesFolder/more8.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="bi bi-person-circle"></i> 10 Beautiful Doormat
+                                        Making |
+                                        Old Clothes Reuse | Handmade</h5>
+                                    <div class="d-flex">
+                                        <a href="#" class="btn readmore_btn">Read More &gt;&gt;</a>
+                                        <i class="bi bi-star new_star ps-2"></i>
+                                        <div class="d-flex rating_container">
+                                            <p class="pe-2">123</p>
+                                            <i class="bi bi-hand-thumbs-up"></i>
+                                            <i class="bi bi-hand-thumbs-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+
+                        <div class="card mx-4">
+                            <div class="image-container">
+                                <a href="https://youtube.com"><img src="ImagesFolder/more9.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="bi bi-person-circle"></i> 10 Beautiful Doormat
+                                        Making |
+                                        Old Clothes Reuse | Handmade</h5>
+                                    <div class="d-flex">
+                                        <a href="#" class="btn readmore_btn">Read More &gt;&gt;</a>
+                                        <i class="bi bi-star new_star ps-2"></i>
+                                        <div class="d-flex rating_container">
+                                            <p class="pe-2">123</p>
+                                            <i class="bi bi-hand-thumbs-up"></i>
+                                            <i class="bi bi-hand-thumbs-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+    </aside>
+</body>
+
+<footer class="bg-dark text-white text-center py-2">
+    Copyright @2023 Nest
+</footer>
+
+</html>

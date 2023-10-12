@@ -1,0 +1,73 @@
+/* Reset some default styles */
+/* Style for the entire page */
+body, html {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column; /* Adjusted to vertical layout */
+    align-items: center; /* Center content vertically */
+}
+
+.content {
+    max-width: 800px;
+    padding: 20px;
+    width: 100%; /* Ensure content fills the available width */
+}
+
+section {
+    display: none;
+}
+
+section.active-section {
+    display: block;
+}
+
+h2 {
+    color: white;
+    margin-top: 20px;
+}
+
+.section-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.section-item:hover {
+    background-color: #f2f2f2;
+}
+
+/* Style for the tabs */
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.tab.active {
+    background-color: #FF0000; /* Highlight the active tab */
+}
+
+/* Style for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto; /* Sticky footer */
+}

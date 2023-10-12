@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nest Home</title>
+    <link rel="icon" href="ImagesFolder/logo.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="CSS Folder/styles.css" rel="stylesheet" />
+    <link href="CSS Folder/index_style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="sticky-top">
+        <!-- nav bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid px-3">
+                <a class="navbar-brand" href="index.html">
+                    <img class="logo px-2" src="ImagesFolder/logo.jpg">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <form class="d-flex me-auto search_bar_form">
+                        <input class="form-control search_bar" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn search_bar_icon" type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <li class="nav-item">
+                            <div class="d-flex coin_container">
+                                <a href="shop.html"><img class="coin" src="ImagesFolder/coin.png" alt="coin"></a>
+                                <p class="total_coin">: 100</p>
+                            </div>
+                        </li>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link nav_list active" aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link nav_list" href="discover.html">DISCOVER</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link nav_list" href="shop.html">SHOP</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link nav_list" href="account.html"><i class="bi bi-person-circle"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- continue watching -->
+    <article class="container-fluid p-3">
+        <div class="d-flex flex-column CW_container">
+            <!-- Continue watching title -->
+            <div class="CW_title py-1 mx-auto">
+                <span class="h2">Continue Watching?</span>
+            </div>
+
+            <!-- Continue watching video -->
+            <div class="CW_body text-center pt-2">
+                <div class="CW_video">
+                    <video width="95%" controls>
+                        <source src="../VIDEOS/#" type="video/mp4">
+                    </video>
+                </div>
+                <div class="CW_description d-flex text-start px-4 align-items-center">
+                    <div class="flex-grow-1">
+                        <a href="#">
+                            <p class="h5">Old Clothes ! 12 DIY Clothes Reuse Hacks - YouTube</p>
+                        </a>
+                    </div>
+                    <div class="d-flex align-items-end">
+                        <p>12.3k</p>
+                        <b><i class="bi bi-hand-thumbs-up trending_thumb"></i>
+                            <i class="bi bi-hand-thumbs-down trending_thumb"></i></b>
+                    </div>
+                    <div class="px-2">
+                        <i class="bi bi-star-fill saved"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <section class="container-fluid p-3">
+        <div>
+            <span class="h3">Favourite Videos <i class="bi bi-star-fill saved"></i></span>
+        </div>
+
+        <div class="saved_videos_container d-flex justify-content-evenly">
+            <div class="video_container">
+                <a href="https://www.youtube.com"><img src="ImagesFolder/Home1_resized.jpg" class="saved_video"
+                        alt="image1">
+                </a>
+            </div>
+
+            <div class="video_container">
+                <img src="ImagesFolder/Home2_resized.jpg" class="saved_video" alt="image2">
+            </div>
+
+            <div class="video_container">
+                <img src="ImagesFolder/Home3_resized.jpg" class="saved_video" alt="image3">
+            </div>
+
+            <div class="video_container">
+                <img src="ImagesFolder/Home4_resized.jpg" class="saved_video" alt="image4">
+            </div>
+
+            <div class="video_container">
+                <img src="ImagesFolder/Home5_resized.jpg" class="saved_video" alt="image5">
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-2">
+        Copyright @2023 Nest
+    </footer>
+</body>
+
+</html>

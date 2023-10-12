@@ -1,0 +1,87 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+
+/* Page Styles */
+.payment-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f3f3f3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Payment Method Styles */
+.payment-method {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.radio-group {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    color: #555;
+    font-weight: bold;
+}
+
+/* Credit Card Details Styles */
+.credit-card-details {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.form-group {
+    text-align: left;
+}
+
+label {
+    display: block;
+    color: #555;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.expiry-cvv {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Payment Button Styles */
+.pay-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.pay-button:hover {
+    background-color: #0056b3;
+}

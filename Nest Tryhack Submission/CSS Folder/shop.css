@@ -1,0 +1,62 @@
+/* Custom CSS for the webpage */
+
+/* Style for the entire page */
+body {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Style for the navigation bar */
+.navbar {
+    background-color: #333;
+}
+
+/* Style for the subscription options */
+.section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.subscription-options {
+    display: flex;
+    justify-content: center;
+}
+
+.subscription-option {
+    margin: 10px;
+    padding: 15px 30px; /* Larger subscription options */
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Style for the coin surcharge options */
+.coin-surcharges {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.coin-surcharge-option {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #555;
+    text-align: center;
+}
+
+/* Style for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto; /* Sticky footer */
+}
