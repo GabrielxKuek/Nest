@@ -31,13 +31,13 @@ Brief Overview:
 | **Upload Page** | The Upload Page is where users can post their own tutorials to share their craft projects with others. | <div style="color: red">Note to self: record this later</div> |
 | **Profile Page** | The Profile Page allows users to monitor the acitivty they have made on the profile, going from viewing your posts, favourited tutorials and creators you are following | <div style="color: red">Note to self: record this later</div> |
 
-# Getting Started
+## Getting Started
 <h4>Requirements to run Nest:</h4>
 - Xcode 14 (Swift 5.7)
 - iOS 14
 </br>
 
-<h4>Deployment:</h4>
+# Deployment
 - To access the source code, [fork](https://github.com/GabrielxKuek/Nest/Nest.xcodeproj/fork) or clone this repository to access the source code.
 - To run the app, open **Nest/Nest.xcodeproj**
 </br>
