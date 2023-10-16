@@ -2,12 +2,12 @@
   # Nest
 Website / App 
 
-<h1 styles="color: red">Note to self: add image edit later</h1>
+<img src="https://github.com/GabrielxKuek/Nest/assets/nest-banner">
 
 <h4 align="center">
-  <a href="https://www.icloud.com/keynote/0ab9_t9PasGBq1jrLS5skMdKg#Apple_Presentation">Presentation slides</a>
+  <a href="https://docs.google.com/presentation/d/1Hw9QW27N159Nn0rGdDLNwrqFb_KwFudC8k2CTvvxNcg/edit?usp=sharing">Presentation slides</a>
   <span> · </span>
-  <a href="https:/github.com/hunchongtan/hive/issues">Report a bug</a>
+  <a href="https:/github.com/GabrielxKuek/Nest/issues">Report a bug</a>
 </h4>
 
 ---
@@ -27,9 +27,9 @@ Brief Overview:
 
 | Main Features | Description | Preview |
 | ------------- | ----------- | ------- |
-| **Discover Page** | The Discover Page is a curated section designed to help users explore a diverse range of tutorials. It offers various tutorial groupings, including options to pick up where you left off, tailored recommendations like beginner-friendly and short projects, and more, making it a hub for discovering engaging content. | <div style="color: red">Note to self: record this later</div> |
-| **Upload Page** | The Upload Page is where users can post their own tutorials to share their craft projects with others. | <div style="color: red">Note to self: record this later</div> |
-| **Profile Page** | The Profile Page allows users to monitor the acitivty they have made on the profile, going from viewing your posts, favourited tutorials and creators you are following | <div style="color: red">Note to self: record this later</div> |
+| **Discover Page** | The Discover Page is a curated section designed to help users explore a diverse range of tutorials. It offers various tutorial groupings, including options to pick up where you left off, tailored recommendations like beginner-friendly and short projects, and more, making it a hub for discovering engaging content. | (https://github.com/GabrielxKuek/Nest/assets/nest-home) |
+| **Upload Page** | The Upload Page is where users can post their own tutorials to share their craft projects with others. | (https://github.com/GabrielxKuek/Nest/assets/nest-post) |
+| **Profile Page** | The Profile Page allows users to monitor the acitivty they have made on the profile, going from viewing your posts, favourited tutorials and creators you are following | (https://github.com/GabrielxKuek/Nest/assets/nest-profile-favourites) |
 
 ## Getting Started
 <h4> Requirements to run Nest:</h4>
