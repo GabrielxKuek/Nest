@@ -2,7 +2,7 @@
   # Nest
 Website / App 
 
-<img src="https://github.com/GabrielxKuek/Nest/tree/App-Branch/assets/nest-banner">
+<img src="https://github.com/GabrielxKuek/Nest/blob/App-Branch/assets/Screenshot%202023-10-16%20102232.png">
 
 <h4 align="center">
   <a href="https://docs.google.com/presentation/d/1Hw9QW27N159Nn0rGdDLNwrqFb_KwFudC8k2CTvvxNcg/edit?usp=sharing">Presentation slides</a>
@@ -27,9 +27,9 @@ Brief Overview:
 
 | Main Features | Description | Preview |
 | ------------- | ----------- | ------- |
-| **Discover Page** | The Discover Page is a curated section designed to help users explore a diverse range of tutorials. It offers various tutorial groupings, including options to pick up where you left off, tailored recommendations like beginner-friendly and short projects, and more, making it a hub for discovering engaging content. | (https://github.com/GabrielxKuek/Nest/tree/App-Branch/assets/nest-home) |
-| **Upload Page** | The Upload Page is where users can post their own tutorials to share their craft projects with others. | (https://github.com/GabrielxKuek/Nest/tree/App-Branch/assets/nest-post) |
-| **Profile Page** | The Profile Page allows users to monitor the acitivty they have made on the profile, going from viewing your posts, favourited tutorials and creators you are following | (https://github.com/GabrielxKuek/Nest/tree/App-Branch/assets/nest-profile-favourites) |
+| **Discover Page** | The Discover Page is a curated section designed to help users explore a diverse range of tutorials. It offers various tutorial groupings, including options to pick up where you left off, tailored recommendations like beginner-friendly and short projects, and more, making it a hub for discovering engaging content. | (https://github.com/GabrielxKuek/Nest/tree/App-Branch/assets/nest-home.jpg) |
+| **Upload Page** | The Upload Page is where users can post their own tutorials to share their craft projects with others. | (https://github.com/GabrielxKuek/Nest/tree/App-Branch/assets/nest-upload.jpg) |
+| **Profile Page** | The Profile Page allows users to monitor the acitivty they have made on the profile, going from viewing your posts, favourited tutorials and creators you are following | (https://github.com/GabrielxKuek/Nest/tree/App-Branch/assets/nest-profile-favourites.png) |
 
 ## Getting Started
 <h4> Requirements to run Nest:</h4>
