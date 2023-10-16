@@ -32,12 +32,12 @@ Brief Overview:
 | **Profile Page** | The Profile Page allows users to monitor the acitivty they have made on the profile, going from viewing your posts, favourited tutorials and creators you are following | <div style="color: red">Note to self: record this later</div> |
 
 ## Getting Started
-# Requirements to run Nest:</h4>
+### Requirements to run Nest:</h4>
 - Xcode 14 (Swift 5.7)
 - iOS 14
 </br>
 
-# Deployment
+### Deployment
 - To access the source code, [fork](https://github.com/GabrielxKuek/Nest/Nest.xcodeproj/fork) or clone this repository to access the source code.
 - To run the app, open **Nest/Nest.xcodeproj**
 </br>
