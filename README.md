@@ -32,7 +32,7 @@ Brief Overview:
 | **Profile Page** | The Profile Page allows users to monitor the acitivty they have made on the profile, going from viewing your posts, favourited tutorials and creators you are following | <div style="color: red">Note to self: record this later</div> |
 
 ## Getting Started
-<h4>Requirements to run Nest:</h4>
+# Requirements to run Nest:</h4>
 - Xcode 14 (Swift 5.7)
 - iOS 14
 </br>
