@@ -49,7 +49,7 @@ Brief Overview:
 
 ## Authors
 Website Branch -
-Min Thet Khine(Kevin), Edwin Tan
+Min Thet Khine(Kevin), Edwin Tan <br>
 App Branch -
 Gabriel Kuek
 
