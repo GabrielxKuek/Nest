@@ -48,9 +48,9 @@ Brief Overview:
 <div styles: "color: red">Note to self: complete later</div>
 
 ## Authors
-Website Branch -
+Website Branch - <br>
 Min Thet Khine(Kevin), Edwin Tan <br>
-App Branch -
+App Branch - <br>
 Gabriel Kuek
 
 ## Acknowledgements
