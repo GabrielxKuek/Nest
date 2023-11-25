@@ -48,7 +48,10 @@ Brief Overview:
 <div styles: "color: red">Note to self: complete later</div>
 
 ## Authors
-Min Thet Khine(Kevin), Edwin Tan, Gabriel Kuek
+Website Branch -
+Min Thet Khine(Kevin), Edwin Tan
+App Branch -
+Gabriel Kuek
 
 ## Acknowledgements
 This is a project developed for Singapore Polytechnic(SP)'s School of Computing(SOC)'s Tryhack Hackathon.
