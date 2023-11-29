@@ -27,7 +27,7 @@ Brief Overview:
 
 | Main Features | Description |
 | ------------- | ----------- |
-| **Discover Page** <br> <img src="https://github.com/GabrielxKuek/Nest/tree/App-Branch/assets/nest-home.jpg"> | The Discover Page is a curated section designed to help users explore a diverse range of tutorials. It offers various tutorial groupings, including options to pick up where you left off, tailored recommendations like beginner-friendly and short projects, and more, making it a hub for discovering engaging content. |
+| **Discover Page** <br> ![](assets/nest-home.jpg) | The Discover Page is a curated section designed to help users explore a diverse range of tutorials. It offers various tutorial groupings, including options to pick up where you left off, tailored recommendations like beginner-friendly and short projects, and more, making it a hub for discovering engaging content. |
 | **Upload Page** <br> <img src="https://github.com/GabrielxKuek/Nest/tree/App-Branch/assets/nest-upload.jpg"> | The Upload Page is where users can post their own tutorials to share their craft projects with others. |
 | **Profile Page** <br> <img src="https://github.com/GabrielxKuek/Nest/tree/App-Branch/assets/nest-profile-favourites.png"> | The Profile Page allows users to monitor the acitivty they have made on the profile, going from viewing your posts, favourited tutorials and creators you are following |
 
