@@ -26,7 +26,7 @@ Brief Overview:
 <br>
 
 | Main Features | Description | - |
-| ------------- | ----------- | - |
+| ---------- | ----------- | ---------------- |
 | **Discover Page** | The Discover Page is a curated section designed to help users explore a diverse range of tutorials. It offers various tutorial groupings, including options to pick up where you left off, tailored recommendations like beginner-friendly and short projects, and more, making it a hub for discovering engaging content. | ![](assets/nest-home.jpg) |
 | **Upload Page** | The Upload Page is where users can post their own tutorials to share their craft projects with others. | ![](assets/nest-upload.jpg) |
 | **Profile Page** | The Profile Page allows users to monitor the acitivty they have made on the profile, going from viewing your posts, favourited tutorials and creators you are following | ![](assets/nest-profile-favourites.png) |
