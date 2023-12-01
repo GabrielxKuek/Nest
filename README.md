@@ -16,7 +16,7 @@ Website / App
 <br>
 This serves to tackle the issue of sustainability in Singapore, to combat the growing issue of landfills filling up at very fast rates.
 
-| **Discover Tab** | **Upload Tab** | **Profile Tab** |
+| **[Discover Tab](#app-features)** | **[Upload Tab](#app-features)** | **[Profile Tab](#app-features)** |
 | ---------------- | -------------- | --------------- |
 
 ### App Features
@@ -24,7 +24,7 @@ Brief Overview:
 - This was made using Swift and SwiftUI
 - This is a prototype
 <br>
-##
+
 | Main Features | Description | App Demo |
 | --- | ------- | ---------------- |
 | **Discover Page** | The Discover Page is a curated section designed to help users explore a diverse range of tutorials. It offers various tutorial groupings, including options to pick up where you left off, tailored recommendations like beginner-friendly and short projects, and more, making it a hub for discovering engaging content. | ![](assets/nest-home.jpg) |
