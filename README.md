@@ -45,7 +45,7 @@ Brief Overview:
 
 
 ### Website Features
-<div styles: "color: red">Note to self: complete later</div>
+Ref to Website-Branch
 
 ## Authors
 Website Branch - <br>
