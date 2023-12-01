@@ -24,7 +24,7 @@ Brief Overview:
 - This was made using Swift and SwiftUI
 - This is a prototype
 <br>
-
+##
 | Main Features | Description | App Demo |
 | --- | ------- | ---------------- |
 | **Discover Page** | The Discover Page is a curated section designed to help users explore a diverse range of tutorials. It offers various tutorial groupings, including options to pick up where you left off, tailored recommendations like beginner-friendly and short projects, and more, making it a hub for discovering engaging content. | ![](assets/nest-home.jpg) |
