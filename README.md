@@ -16,7 +16,7 @@ Website / App
 <br>
 This serves to tackle the issue of sustainability in Singapore, to combat the growing issue of landfills filling up at very fast rates.
 
-| **[Discover Tab](#app-features)** | **[Upload Tab](#app-features)** | **[Profile Tab](#app-features)** |
+| **[Discover Tab](#discover-page)** | **[Upload Tab](#app-features)** | **[Profile Tab](#app-features)** |
 | ---------------- | -------------- | --------------- |
 
 ### App Features
@@ -27,7 +27,7 @@ Brief Overview:
 
 | Main Features | Description | App Demo |
 | --- | ------- | ---------------- |
-| ** # Discover Page** | The Discover Page is a curated section designed to help users explore a diverse range of tutorials. It offers various tutorial groupings, including options to pick up where you left off, tailored recommendations like beginner-friendly and short projects, and more, making it a hub for discovering engaging content. | ![](assets/nest-home.jpg) |
+| **Discover Page** | The Discover Page is a curated section designed to help users explore a diverse range of tutorials. It offers various tutorial groupings, including options to pick up where you left off, tailored recommendations like beginner-friendly and short projects, and more, making it a hub for discovering engaging content. | ![](assets/nest-home.jpg) |
 | **Upload Page** | The Upload Page is where users can post their own tutorials to share their craft projects with others. | ![](assets/nest-upload.jpg) |
 | **Profile Page** | The Profile Page allows users to monitor the acitivty they have made on the profile, going from viewing your posts, favourited tutorials and creators you are following | ![](assets/nest-profile-favourites.png) |
 
