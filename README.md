@@ -16,7 +16,7 @@ Website / App
 <br>
 This serves to tackle the issue of sustainability in Singapore, to combat the growing issue of landfills filling up at very fast rates.
 
-| **[Discover Tab](#discover-page)** | **[Upload Tab](#app-features)** | **[Profile Tab](#app-features)** |
+| **[Discover Tab](#app-features)** | **[Upload Tab](#app-features)** | **[Profile Tab](#app-features)** |
 | ---------------- | -------------- | --------------- |
 
 ### App Features
