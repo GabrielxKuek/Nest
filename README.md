@@ -3,5 +3,5 @@ Website / App
 
 Please refer to App Branch to view Swift files, as well as a basic summary of what my Team and I have done.
 
-Website Contributors : Edwin Tan, Min Thet Khine<br>
-App Contributors : Gabriel Kuek
+Website Contributors - HTML, CSS : Edwin Tan, Min Thet Khine<br>
+App Contributors - Swift, SwiftUI : Gabriel Kuek
