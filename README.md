@@ -5,5 +5,6 @@ Please refer to App Branch to view Swift files, as well as a basic summary of wh
 
 Website Contributors - HTML, CSS : <br>
 : Edwin Tan, Min Thet Khine<br>
+<br>
 App Contributors - Swift, SwiftUI : <br>
 : Gabriel Kuek
