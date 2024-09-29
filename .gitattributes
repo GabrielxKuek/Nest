@@ -1,0 +1,2 @@
+# Ensure Swift files are counted for language statistics
+*.swift linguist-language=Swift
